@@ -17,6 +17,11 @@
     height: 60px;
     line-height: 60px;
     vertical-align: middle;
+    text-align: center;
+}
+
+.availability  span {
+    font-weight: 600;
 }
 
 .converter {
@@ -28,9 +33,12 @@
 input {
     height: 30px;
     box-sizing: border-box;
+    border: solid 2px #b8b8b8;
+    border-right: none;
 }
 
 select {
     height: 30px;
     box-sizing: border-box;
+    border: solid 2px #b8b8b8;
 }

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CurrencyService } from './services/currency-service';
 import { Rate } from './rates/Rate';
-import { Observable } from 'rxjs';
 import { RateAPI } from './rates/RateAPI';
 
 @Component({
@@ -14,9 +13,6 @@ import { RateAPI } from './rates/RateAPI';
 })
 export class AppComponent implements OnInit {
   title = 'Currency';
-  // usd = '1.0';
-  // eur = '1.5';
-  // uah = '0.0';
   inputFirst!: number;
   inputSecond!: number;
   currencyFirst: string = "UAH";
