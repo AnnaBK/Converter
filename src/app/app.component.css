@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.current-rates :first-child {
+    font-weight: 600;
+}
+
+.current-rates :nth-child(2) {
+    color: #8c8c8c;
+}
+
+.availability {
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.converter {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+input {
+    height: 30px;
+    box-sizing: border-box;
+}
+
+select {
+    height: 30px;
+    box-sizing: border-box;
+}
